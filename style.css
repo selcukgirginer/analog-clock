@@ -1,0 +1,95 @@
+@font-face {
+     font-family: lora;
+      src: url('font/Lora-Medium.ttf'); } 
+
+body{
+    background-color: rgb(212, 212, 212);
+}
+
+.Wrapper{
+    margin-left: 27%;
+    margin-top: 2.5%;
+}
+
+.frame{
+    border: 2px solid black;
+    background-color: black;
+    width: 90vh;
+    height: 90vh;
+    border-radius: 360px;
+}
+
+.in-frame{
+    border: 3px solid gray;
+    text-align: center;
+    margin-top: 5.3%;
+    height: 80vh;
+    width: 80vh;
+    background-color: rgb(202, 202, 202);
+    border-radius: 360px;
+    margin-left: 5%;
+}
+
+.in-back{
+    border: 3px solid gray;
+    text-align: center;
+    margin-top: 2.7%;
+    height: 75vh;
+    width: 75vh;
+    background-color: white;
+    border-radius: 360px;
+    margin-left: 2.7%;
+}
+
+.mid-point{
+    background-color: black;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 360px;
+    margin-left: 46.7%;
+    margin-top: 47%;
+    text-align: center;
+}
+
+.intermed{
+    background-color: black;
+    height: 2.5%;
+    width: 0.5%;
+    display: inline-block;
+    position: absolute;
+    margin-left: -2.5%;
+    margin-top: 0.5%;
+}
+
+.second-hand{
+    background-color: red;
+    height: 0.3vh;
+    width: 31vh;
+    margin-top: -2.8vh;
+    transform-origin: left;
+    transform: rotate(270deg);
+    border: 2px solid red;
+    margin-left: 37.5vh;
+}
+
+.minute-hand{
+    background-color: black;
+    height: 1vh;
+    width: 34vh;
+    transform-origin: left;
+    transform: rotate(270deg);
+    border: 2px solid black;
+    margin-left: 37.5vh;
+    margin-top: -1.3vh;
+}
+
+.hour-hand{
+    background-color: black;
+    height: 1vh;
+    width: 22vh;
+    transform-origin: left;
+    transform: rotate(270deg);
+    border: 2px solid black;
+    margin-left: 37.5vh;
+    margin-top: -1.2vh;
+}
